@@ -5,11 +5,11 @@ import Bars from './../../images/bars.svg'
 export const Nav = styled.nav`
     height: 60px;
     display: flex;
-    background: purple;
     justify-content: space-between;
     padding: 1rem 2rem;
     position: fixed;
     width: 100%;
+    z-index: 10000;
 `
 const NavLink = css`
     color: #fff;
